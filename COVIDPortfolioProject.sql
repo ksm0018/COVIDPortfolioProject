@@ -1,5 +1,6 @@
 /*
 Covid 19 Data Exploration 
+
 Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
 */
 
@@ -56,7 +57,7 @@ order by TotalDeathCount desc
 
 
 
--- BREAKING THINGS DOWN BY CONTINENT
+-- Breaking Things Down By Continent
 
 -- Showing contintents with the highest death count per population
 
@@ -69,7 +70,7 @@ order by TotalDeathCount desc
 
 
 
--- GLOBAL NUMBERS
+-- Global Numbers
 
 Select SUM(new_cases) as total_cases, SUM(cast(new_deaths as int)) as total_deaths, SUM(cast(new_deaths as int))/SUM(New_Cases)*100 as DeathPercentage
 From PortfolioProject..CovidDeaths
