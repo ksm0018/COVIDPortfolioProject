@@ -10,4 +10,6 @@ This project uses SQL to explore COVID-19 infection and vaccination data.
 
 # Links
 
-The data is then visualized using Tableau, and can be found here: https://public.tableau.com/app/profile/kristen.mcgraw/viz/TableauDashboardProject_16603474012260/Dashboard1
+The data is then visualized using Tableau, and can be found here: 
+
+https://tinyurl.com/5a9pybnw
